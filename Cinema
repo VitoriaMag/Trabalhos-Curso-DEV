@@ -12,7 +12,7 @@ print("==========================")
 print("Cinépolis Estação BH")
 print("==========================")
 filmescartaz = ["Pantera Negra", "Mundo Estranho", "Noite Infeliz"]
-print("FILMES EM CARTAZ : \nPantera Negra \nMundo Estranho \nNoite infeliz")
+print("FILMES EM CARTAZ : \nPantera Negra \nMundo Estranho \nNoite Infeliz")
 print("==========================")
 pedido = input("Bem vindo(a)! \nQual filme gostaria de assistir: ")
 if pedido == filmescartaz[0]:
