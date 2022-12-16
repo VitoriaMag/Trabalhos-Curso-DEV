@@ -23,9 +23,8 @@ if pedido == filmescartaz[2]:
     print("Sessões de hoje: \n19:00")
 
 sessao=input('Gostaria de assistir à alguma sessão? [sim/não] : ')
-if sessao != 'sim' and 'não':
+if sessao != 'sim' and sessao !='não':
     print('Escolha sim ou não')
-
 if sessao == 'sim' and sessao != 'não':
     input("Escolha um horário: ")
     if sessao == 'sim'and pedido ==filmescartaz[0] and '15:00' and '18:15' and '21:30':
@@ -36,3 +35,4 @@ if sessao == 'sim' and sessao != 'não':
         print("Sua sessão será na sala: 5 ")
 else:
     print("Que pena :( \nTalvez na próxima")
+
